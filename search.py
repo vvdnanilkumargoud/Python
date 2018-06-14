@@ -14,6 +14,6 @@ else:
 b = {'c':4,'d':5,'e':7}
 key = raw_input("Enter which key you want to search in a dictionary : ")
 if key in b:
-    print b[key]
+    print "Value of %s is %s" %(key,b[key])
 else:
     print "There is no %s as key in Dictionary" %key
