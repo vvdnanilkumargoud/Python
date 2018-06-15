@@ -1,0 +1,5 @@
+a = input("Please enter a integer value : ")
+b = str(a)
+c = float(a)
+print "String value of a %d is : %s" %(a,b)
+print "Float value of a %d is : %f" %(a,c)
